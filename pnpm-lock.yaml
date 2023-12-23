@@ -20,6 +20,9 @@ importers:
       '@rollup/plugin-inject':
         specifier: ^5.0.5
         version: 5.0.5(rollup@4.6.0)
+      browser-resolve:
+        specifier: ^2.0.0
+        version: 2.0.0
       node-stdlib-browser:
         specifier: ^1.2.0
         version: 1.2.0
@@ -27,6 +30,9 @@ importers:
       '@playwright/test':
         specifier: ^1.40.1
         version: 1.40.1
+      '@types/browser-resolve':
+        specifier: ^2.0.4
+        version: 2.0.4
       '@types/node':
         specifier: ^18.18.8
         version: 18.18.8
@@ -1010,6 +1016,12 @@ packages:
       '@babel/types': 7.23.0
     dev: true
 
+  /@types/browser-resolve@2.0.4:
+    resolution: {integrity: sha512-6qR8ne4oBrfDcM1ZM+CY+OY29zQ22+7bgrLDDCeyt7QNqyIh+tJkmnN18dg7PrxnEVy3YG7Gs61NQJvOc5tTpA==}
+    dependencies:
+      '@types/resolve': 1.20.6
+    dev: true
+
   /@types/estree@1.0.4:
     resolution: {integrity: sha512-2JwWnHK9H+wUZNorf2Zr6ves96WHoWDJIftkcxPKsS7Djta6Zu519LarhRNljPXkpsZR2ZMwNCPeW7omW07BJw==}
 
@@ -1063,6 +1075,10 @@ packages:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
       csstype: 3.1.2
+    dev: true
+
+  /@types/resolve@1.20.6:
+    resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
     dev: true
 
   /@types/scheduler@0.16.5:
